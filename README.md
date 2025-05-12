@@ -1,6 +1,6 @@
 # Gmail-LLM-Assistant
 A Python-based Gmail assistant using the Gemini 2.5 Flash model to read, summarize, and categorize emails, detect urgent ones, and generate draft replies.
-## 🌟 Features
+## Features
 
 - **Authenticate with Gmail API using OAuth2.
 - **Fetch and summarize emails with Gemini 2.5 Flash.
@@ -18,21 +18,27 @@ Gemini API key from Google AI Studio
 ## Setup
 
 ### Install uv:
+```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
 source $HOME/.cargo/env
+```
 
 ### Install uv with pip:
+```bash
 pip install uv
-
+```
 
 ### Clone the repository:
+```bash
 git clone https://github.com/fatihcihant/llm_mail_asistant.git
 cd Gmail-LLM-Assistant
-
+```
 
 ### Set up Python environment:
+```bash
 uv python install 3.12
 uv sync
+```
 
 
 ### Configure Gmail API:
@@ -86,8 +92,11 @@ LLM-Mail-Assistant/
 
 
 src/agents/: Agent classes for fetching, processing, and notifying.
+
 src/utils/: Utility functions for Gmail and Gemini APIs.
+
 settings.yaml: Configuration for adjustable parameters.
+
 main.py: Entry point to run the assistant.
 
 ## Contributing
