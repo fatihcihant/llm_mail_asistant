@@ -1,0 +1,14 @@
+[project]
+name = "gmail-llm-assistant"
+version = "0.1.0"
+dependencies = [
+    "google-auth-oauthlib==1.2.0",
+    "google-auth-httplib2==0.2.0",
+    "google-api-python-client==2.111.0",
+    "google-generativeai==0.7.2",
+    "python-dotenv==1.0.1",
+    "pyyaml==6.0.2",
+]
+
+[tool.uv]
+python = "3.12"

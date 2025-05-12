@@ -1,0 +1,2 @@
+max_emails: 10
+notification_method: console
