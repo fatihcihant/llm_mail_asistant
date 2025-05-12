@@ -44,11 +44,16 @@ uv sync
 ### Configure Gmail API:
 
 Go to Google Cloud Console.
+
 Create a project and enable the Gmail API.
+
 Create OAuth 2.0 credentials (select "Desktop app") and download credentials.json.
+
 Place credentials.json in the project root.
+
 If you encountered permission denied problem you have to assign target email adress to test user.
--> Google Cloud Console → APIs & Services → OAuth Consent Screen → Test user → ADD USERS
+
+---> Google Cloud Console → APIs & Services → OAuth Consent Screen → Test user → ADD USERS
 
 
 
